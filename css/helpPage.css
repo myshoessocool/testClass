@@ -1,0 +1,133 @@
+.title {
+  width: 1406px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.title h1 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #323946;
+}
+.help-main-content {
+  width: 1406px;
+  height: 413px;
+  background: #ffffff;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.help-main-content h2 {
+  font-size: 24px;
+  margin: 30px 0 0 35px;
+  font-weight: 400;
+}
+.help-main-content .help-main-content-ul {
+  list-style: disc;
+  margin: 0px 0 0 55px;
+}
+.help-main-content .help-main-content-ul li {
+  font-size: 18px;
+  margin: 40px 0 0 0;
+}
+.help-main-content .help-main-content-ul li a {
+  color: #5B616B;
+}
+.help-main-content .help-main-content-ul li:hover {
+  color: #24A3D8;
+}
+.help-main-content .help-main-content-ul li:hover a {
+  color: #24A3D8;
+}
+.help-main-content .help-main-content-course {
+  width: 917px;
+  height: 226px;
+  margin: 0 65px 0 0;
+}
+.help-main-content .help-main-content-course .course {
+  width: 917px;
+  height: 200px;
+  background: #F8F8F8;
+}
+.help-main-content .help-main-content-course .course .course-ul {
+  width: 100%;
+  padding: 0 0 0 50px;
+}
+.help-main-content .help-main-content-course .course .course-ul-li:before {
+  content: '';
+  display: inline-block;
+  height: 2px;
+  width: 2px;
+  border-radius: 50%;
+  background: #000000;
+}
+.help-main-content .help-main-content-course .course .course-ul-li {
+  width: 232px;
+  margin: 30px 60px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+}
+.help-main-content .help-main-content-course .course .course-ul-li a:hover {
+  color: #24A3D8;
+}
+.help-main-content .help-main-content-course .course .course-ul-li a {
+  color: #5B616B;
+}
+.help-main-content .help-main-content-course .course .course-ul-li:hover {
+  color: #24A3D8;
+}
+.help-main-content .help-main-content-course a {
+  margin-top: 10px;
+  color: #24A3D8;
+}
+.service {
+  width: 1406px;
+  height: 260px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.service .service-ul {
+  width: 1182px;
+  height: 190px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.service .service-ul .service-content {
+  margin: 0 65px 0 0;
+}
+.service .service-ul .service-content i {
+  display: block;
+  height: 140px;
+  width: 140px;
+  background-image: url(../img/service.png);
+  background-repeat: no-repeat;
+  margin: 0 0 30px 0;
+}
+.service .service-ul .service-content a {
+  display: block;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  color: #5B616B;
+}
+.service .service-ul .service-content:nth-child(2) i {
+  background-position: -207px 0px;
+}
+.service .service-ul .service-content:nth-child(3) i {
+  background-position: -415px 0px;
+}
+.service .service-ul .service-content:nth-child(4) i {
+  background-position: -623px 0px;
+}
+.service .service-ul .service-content:nth-child(5) i {
+  background-position: -831px 0px;
+}
+.service .service-ul .service-content:last-child i {
+  background-position: -1038px 0px;
+}
+.service .service-ul .service-content:last-child {
+  margin: 0;
+}

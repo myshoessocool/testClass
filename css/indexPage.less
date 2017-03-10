@@ -1,0 +1,559 @@
+.frame {
+        .header-figure {
+            width: 100%;
+            height: 585px;
+            overflow: hidden;
+            position: relative;
+            .header-login-frame{
+                width: 1406px;
+                height: 352px;
+                margin: 0 auto;
+                position: relative;
+                left: 0px;
+                top: 82px;
+                .header-login {
+                    position: absolute;
+                    z-index: 2;
+                    width: 396px;
+                    height: 352px;
+                    background: rgba(0,0,0,0.7);
+                    .login-register {
+                        display: block;
+                        width: 276px;
+                        height: 60px;
+                        background: #24a3d8;
+                        margin: 0 auto;
+                        border-radius: 5px;
+                        text-align: center;
+                        color: white;
+                        font-size: 32px;
+                        line-height: 60px;
+    
+                    }
+                    a {
+                        color: white;
+                        font-size: 18px;
+                        margin: 10px 60px 0 0;
+                    }
+                    h1 {
+                        color: white;
+                        font-weight: 400;
+                        text-align: center;
+                        margin: 55px 0 0;
+                    }
+                    h1:nth-child(2) {
+                        margin: 25px 0 0;
+                    }
+                }
+            }    
+            img {
+                position: relative;
+                top: -535px;
+                z-index: 1;
+                width: 1920px;
+            }
+            .figure-btn {
+                position: absolute;
+                left: 810px;
+                top: 525px;
+                width: 275px;
+                height: 28px;
+                z-index: 2;
+                .btn {
+                    display: block;
+                    height: 28px;
+                    width: 28px;
+                    background: rgba(255,255,255,0.3);
+                    border-radius: 50%;
+                    margin: 0 50px 0 0;
+                    cursor: pointer;
+                }
+                .btn-active {
+                    background: rgba(255,255,255,0.7);
+                }
+                .btn:last-child {
+                    margin: 0;
+                }
+            }
+        }
+    
+    .main {
+        width: 100%;
+        overflow: hidden;
+        .main-welfare {
+            width: 1406px;
+            height: 200px;
+            background: rgb(255,255,255);
+            margin: 75px auto 0;
+            .main-welfare-ul {
+                width: 1406;
+                height: 200px;
+                overflow: hidden;
+                .main-welfare-li {
+                    margin: 40px 0 0 35px;
+                    width: 305px;
+                    background: url("../img/welrare-back.png") right center no-repeat;
+                    i {
+                        display: block;
+                        width: 103px;
+                        height: 103px;
+                        background-image: url("../img/welfare-icon.png");
+                        background-repeat: no-repeat;
+                        background-position: 0 0;
+                        margin: 0 20px 0 0;
+                    }
+                    h2 {
+                        margin: 0 0 35px;
+                        font-weight: 400;
+                    }
+                    p {
+                        color: #5b616b;
+                    }
+                }
+                .main-welfare-li:first-child {
+                    margin: 40px 0 0 55px;
+                }
+                .main-welfare-li:nth-child(2) {
+                    i {
+                        background-position: -348px 0;
+                    }
+                }
+                .main-welfare-li:nth-last-child(2) {
+                    i {
+                        background-position: -682px 0;
+                    }
+                }
+                .main-welfare-li:last-child {
+                    background: none;
+                    i {
+                        background-position: -1009px 0;
+                    }
+
+                }
+            }
+        }
+        .main-recommend {
+            width: 1406px;
+            height: 480px;
+            margin: 60px auto 0;
+            background: rgb(255,255,255);
+            .recommend-title {
+                width: 1340px;
+                margin: 0 auto;
+                h1 {
+                    margin: 40px 0 0;
+                    color: #24A3D8;
+                }
+                p {
+                    font-size: 18px;
+                    margin: 55px 0 0;
+                    color: #6d7178;
+                    cursor: pointer;
+                }
+                hr {     
+                    display: inline-block;              
+                    width: 1340px;
+                    margin-top: 10px;
+                }
+            }
+            .recommend-ul {
+                width: 1340px;
+                margin: 52px auto 0;
+
+                .recommend-li {
+                    width: 334px;
+                    height: 329px;
+                    text-align: center;
+                    border-right: 1px solid #888;
+                    h3 {
+                        font-size: 23px;
+                        font-weight: 400;
+                    }
+                    span {
+                        color: #24A3D8;
+                        font-size: 13px;
+                    }
+                    h2 {
+                        color: #24A3D8;
+                        margin: 58px 0 0;
+                    }
+                    p {
+                        font-size: 15px;
+                        color: #71767f;
+                        margin: 15px 0 0;
+                    }
+                    h4 {
+                        font-size: 17px;
+                        color: #323946;
+                        margin: 53px 0 0;
+                    }
+                    input {
+                        width: 114px;
+                        height: 37px;
+                        color: #24A3D8;
+                        border: 1px solid #24A3D8;
+                        background: rgb(255,255,255);
+                        border-radius: 5px;
+                        margin: 30px 0 0;
+                        font-size: 20px;
+                        cursor: pointer;
+                    }
+                    .input-active {
+                        color: white;
+                        background: #24A3D8;
+                    }
+                }
+                .recommend-li:last-child {
+                    border: 0;
+                }
+            }
+        }
+        .main-content {
+            width: 1406px;
+            height: 656px;
+            margin: 60px auto 0;
+            background: rgb(255,255,255);
+            .main-content-hot,
+            .main-content-recommend {
+                width: 960px;
+                height: 298px;
+                margin: 0 0 0 30px;
+                .main-content-title {
+                    width: 100%;
+                    margin: 40px 0 0;
+                    h1 {
+                        color: #24A3D8;
+                        margin: 0 20px 0 0;
+                    }
+                    p {
+
+                        color: #5B616B;
+                        margin: 18px 0 0;
+                    }
+                }
+                ul {
+                    width: 100%;
+                    height: 128px;
+                    margin: 27px 0 0;
+                    li {
+                        float: left;
+                        margin: 0 25px 0 0;
+                    }
+                    li:nth-child(2) {
+                        h1 {
+                            font-size: 39px;
+                            color: #24A3D8;
+                            margin-top: 40px;
+                        }
+                        p {
+                            margin: 20px 0 0;
+                        }
+                    }
+                    li:nth-last-child(2) {
+                        p {
+                            font-size: 20px;
+                            margin: 22px 0 0;
+                            span {
+                                font-size: 28px;
+                                font-weight: 900;
+                                color: #44546e;
+                            }
+                        }
+                    }
+                    li:last-child {
+                        float: right;
+                        height: 109px;
+                        width: 264px;
+                        margin: 30px 0 0;
+                        p {
+                            text-align: center;
+                            span {
+                                font-weight: 600;
+                                font-size: 20px;
+                                color: #24A3D8;
+                            }
+                        }
+                        i {
+                            display: block;
+                            width: 264px;
+                            height: 6px;
+                            background: url("../img/progress-02.png") no-repeat;
+                            margin: 5px 0 0;
+                        }
+                        input {
+                            border-radius: 5px;
+                            width: 264px;
+                            height: 41px;
+                            color: rgb(255,255,255);
+                            background: #24A3D8;
+                            border: 1px solid #24A3D8;
+                            margin: 25px 0 0;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .main-content-hot {
+                border-bottom: 1px solid #888888;
+
+            }
+            .main-content-invest {
+                ul {
+                    li:last-child {
+                        i {
+                            background: url("../img/progress.png") no-repeat;
+                        }
+                    }
+                }
+            }
+            .main-content-ranking {
+                width: 350px;
+                height: 530px;
+                margin: 40px 0 0;
+                h1 {
+                    color: #24A3D8;
+                    font-weight: 400;
+                }
+                table {
+                    margin: 10px 0 0;
+                    tr {
+                        p {
+                            
+                            margin: 15px 40px 0 0;
+                        }
+                        td:first-child{
+                            p{
+                                font-size: 14px;
+                                width: 19px;
+                                height: 19px;
+                                text-align: center;
+                            }
+                        }
+                        td:last-child{
+                            p{
+                                color: #24A3D8;
+                            }
+                        }
+                    }
+                    tr:nth-child(2),
+                    tr:nth-child(3),
+                    tr:nth-child(4) {
+                        td:first-child {
+                            p {
+
+                                border-radius: 50%;
+                                text-align: center;
+                                background: #24A3D8;
+                                color: rgb(255,255,255);
+                            }
+                        }
+                    }
+                }
+                .more{
+                    margin: 35px 30px 0 0;
+                    cursor: pointer;
+                    color: #5B616B;
+                }
+            }
+        }
+        .main-news{
+            width: 1406px;
+            height: 766px;
+            margin: 0 auto;
+            margin-top:60px ;
+            background: rgb(255,255,255);
+            .recommend-title {
+                width: 1340px;
+                margin: 0 auto;               
+                h1 {
+                    margin: 40px 0 0;
+                    color: #24A3D8;
+                }
+                p {
+                    font-size: 18px;
+                    margin: 55px 0 0;
+                    color: #6d7178;
+                    cursor: pointer;
+                }
+                hr {     
+                    display: inline-block;              
+                    width: 1340px;
+                    margin-top: 10px;
+                }
+            }
+            .main-news-content{
+                width: 813px;
+                height: 620px;
+                margin: 20px 0 0 27px;
+                li{
+                    width: 813px;
+                    height: 165px;
+                    h2{
+                        display:block;
+                    }
+                    p{
+                        margin: 35px 0 0 0;
+                        width: 635px;
+                        color: #92959c;
+                        line-height: 26px;
+                    }
+                    i{
+                        margin: 22px 10px 0 0;
+                        display:inline-block;
+                        width: 150px;
+                        height: 120px;
+                        background: url(../img/content-img-03.png) no-repeat;
+                    }
+                    span{
+                        margin: 22px 0 0 0;
+                        color: #3c4b62;
+                    }
+                }
+                li:not(:first-child){
+                    margin: 50px 0 0 0;
+                }
+                li:nth-child(2){
+                    i{
+                        background: url(../img/content-img-04.png) no-repeat;
+                    }
+                }
+                li:last-child{
+                    i{
+                        background: url(../img/content-img-05.png) no-repeat;
+                    }
+                }
+            }
+            .main-new-video{
+                width: 446px;
+                height: 583px;
+                margin: 20px 30px 0 0; 
+                li{
+                    
+                }
+                li:nth-child(2){
+                    position: relative;
+                    background:rgba(0,0,0,0) url(../img/content-img-06.png) no-repeat;
+                    img{
+                        position: relative;
+                        z-index: 1;
+                    }
+                    i{
+                        position: absolute;
+                        left: 210px;
+                        top: 110px;
+                        z-index: 2;
+                        display: block;
+                        width: 32px;
+                        height: 40px;
+                        background: url(../img/start-btn.png);
+                        cursor: pointer;
+                    }
+                }
+                li:not(:first-child){                    
+                    margin: 30px 0 0 0;
+                    width: 443px;
+                    height: 247px;                                              
+                }
+                li:last-child{
+                    background: url(../img/content-img-07.png) no-repeat;
+                }
+            }
+        }
+        .main-celebrity{
+            width: 1406px;
+            height: 586px;
+            margin: 0 auto;
+            background: rgb(255,255,255);
+            margin-top: 60px;
+             .recommend-title {
+                width: 1340px;
+                margin: 0 auto;
+                h1 {
+                    margin: 40px 0 0;
+                    color: #24A3D8;
+                }
+                p {
+                    font-size: 18px;
+                    margin: 55px 0 0;
+                    color: #6d7178;
+                    cursor: pointer;
+                }
+                hr {     
+                    display: inline-block;              
+                    width: 1340px;
+                    margin-top: 10px;
+                }
+            }
+            .main-celebrity-ul{
+                width: 1340px;
+                margin: 0 auto;
+                margin-top: 40px;
+                .main-celebrity-li{
+                    width: 258px;
+                    height: 345px;
+                    margin: 0 102px 0 0;
+                    i{
+                        display: block;
+                        width: 258px;
+                        height: 258px;
+                        overflow: hidden;
+                        position: relative;
+                        img{
+                            position: absolute;
+                           
+                        }
+                    }
+                    h3,p{
+                        text-align: center;
+                    }
+                    h3{
+                        color: #3C4B62;
+                        margin-top: 26px;
+                        font-size: 20px;
+                    }
+                    p{
+                        margin-top: 15px;
+                        color: #636f81;
+                        font-size: 18px;
+                    }
+                }
+                .main-celebrity-li:first-child{
+                    i{
+                        img{
+                             left: -6px;
+                            top: -20px;
+                        }
+                    }
+                }
+                .main-celebrity-li:nth-child(2){
+                      i{
+                        img{
+                             left: -90px;
+                            top: -20px;
+                        }
+                    }
+                }
+                .main-celebrity-li:nth-last-child(2){
+                      i{
+                        img{
+                             left: -6px;
+                            top: -8px;
+                        }
+                    }
+                }
+                .main-celebrity-li:last-child{
+                      i{
+                        img{
+                             left: -63px;
+                            top: -20px;
+                        }
+                    }
+                }
+                .main-celebrity-li:last-child{
+                    margin: 0;
+                }
+            }
+        }
+    }
+    
+}

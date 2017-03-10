@@ -1,0 +1,89 @@
+.product-main-container {
+  width: 100%;
+  height: 464px;
+  overflow: hidden;
+  position: relative;
+}
+.product-main-container img {
+  width: 1920px;
+  position: absolute;
+  z-index: 1;
+  top: -163px;
+}
+.product-main-container .product-main-container-form {
+  position: relative;
+  top: 40px;
+  width: 1406px;
+  height: 384px;
+  margin: 0 auto;
+}
+.product-main-container .product-main-container-form .product-input-frame {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  width: 320px;
+  height: 384px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.product-main-container .product-main-container-form .product-input-frame h1 {
+  display: block;
+  text-align: center;
+  margin: 40px 0 0;
+  color: #ffffff;
+  font-weight: 400;
+}
+.product-main-container .product-main-container-form .product-input-frame .product-input-un {
+  width: 260px;
+  height: 40px;
+  margin: 33px auto 0;
+}
+.product-main-container .product-main-container-form .product-input-frame .product-input-un .input-name {
+  width: 117px;
+  height: 40px;
+  font-size: 20px;
+  text-align: left;
+  line-height: 40px;
+  margin: 0 8px 0 0;
+  padding: 0 0 0 5px;
+}
+.product-main-container .product-main-container-form .product-input-frame .product-input-un .input-sex {
+  width: 18px;
+  height: 18px;
+  margin: 10px 10px 0 0;
+}
+.product-main-container .product-main-container-form .product-input-frame .product-input-un span {
+  float: left;
+  display: block;
+  color: white;
+  margin: 7px 10px 0 0;
+}
+.product-main-container .product-main-container-form .product-input-frame .product-input-un span:last-child {
+  margin: 7px 0 0;
+}
+.product-main-container .product-main-container-form .product-input-frame .product-input-Verification,
+.product-main-container .product-main-container-form .product-input-frame .product-input-money,
+.product-main-container .product-main-container-form .product-input-frame .product-input-phone {
+  width: 260px;
+  height: 40px;
+  margin: 18px auto 0;
+}
+.product-main-container .product-main-container-form .product-input-frame .product-input-Verification .input-text,
+.product-main-container .product-main-container-form .product-input-frame .product-input-money .input-text,
+.product-main-container .product-main-container-form .product-input-frame .product-input-phone .input-text {
+  height: 40px;
+  width: 260px;
+  font-size: 20px;
+  text-align: left;
+  line-height: 40px;
+  padding: 0 0 0 5px;
+}
+.product-main-container .product-main-container-form .product-input-frame .product-input-Verification .input-code,
+.product-main-container .product-main-container-form .product-input-frame .product-input-money .input-code,
+.product-main-container .product-main-container-form .product-input-frame .product-input-phone .input-code {
+  width: 130px;
+  height: 40px;
+  font-size: 20px;
+  text-align: left;
+  line-height: 40px;
+  padding: 0 0 0 5px;
+}
